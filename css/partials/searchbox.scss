@@ -1,0 +1,25 @@
+header{
+  position: relative;
+  height: 200px;
+  input{
+    height: 80px;
+    padding-left: 32px;
+    padding-right: 32px;
+    top: calc(50% - 40px);
+    left: 15%;
+    width: 70%;
+    position: absolute;
+    margin: auto;
+    border-style: none;
+    border: 1px solid lightgrey;
+    border-radius: 16px;
+    font-size: 1.25rem;
+    &::-webkit-input-placeholder, &::-moz-placeholder, &::placeholder, &:-ms-input-placeholder{
+      font-size: 1.25rem;
+    }
+    &:focus{
+      border:0;
+      border-radius: 50px;
+    }
+  }
+}
